@@ -1,0 +1,78 @@
+---
+name: Jessica Rowell
+#position: "Bioinformatician & Epidemiologist"
+address: "Atlanta, GA, USA"
+phone: +1 (770) 361-7243
+profilepic: jessicaRowell_sq.jpg
+#www:
+email: "jrowell1@gmail.com"
+#twitter: 
+github: jessicarowell
+linkedin: Jessica Rowell
+#google scholar:
+date: "`r format(Sys.time(), '%B %Y')`"
+aboutme: "I commit my boundless mental energy to solving other people's problems. I use computers for what they do best, and bring to the table everything else. Skills include: R (>6 yrs), Python (>2 yrs), SQL (>2 yrs), Perl (>4 yrs), SAS (>10 yrs, plus teaching), plus the suite of commonly-used bioinformatics tools. "
+
+output: vitae::twentyseconds
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(tidyverse)
+library(RefManageR)
+```
+
+# Work Experience
+
+## Centers for Disease Control and Prevention, Atlanta, GA | 2018 - Present
+
+Bioinformatician & Database Manager
+
+* Simultaneously coordinating 2 projects: development of antibiotic resistance profiles using the ROCker tool and design of an HMAS panel antibiotic resistance panel 
+* Writing the pipeline for QC of HMAS data that will be deployed to national public health labs
+* Develop and implement statistical analysis methods for non-standard projects in my team
+
+## Stibo Systems, Kennesaw, GA | 2015 - 2017
+
+Project Manager
+
+* Supervised an 8-person team to execute the overhaul of a database of 25,000 client images
+
+## Centers for Disease Control and Prevention, Atlanta, GA | 2014 - 2015
+
+Researcher & Scientific Writer 
+
+* Developed guidelines on genetic testing evidence in response to an American College of Medical Genetics exome sequencing recommendation on reporting of incidental findings of mutations with established link to disease
+
+## Emory University | 2011 - 2014
+
+Teaching Assistant & Doctoral Student Researcher
+
+* Epidemiologic Methods I & II: developed and executed Master's level lab (1 yr)
+* Advanced Epidemiologic Methods I, SAS Programming, Case Studies in Infectious Diseases: teaching assistant (3 yrs)
+* Doctoral project: measuring epigenetic effects in second generation of  people exposed to polybrominated biphenyls. Optimized a global methylation assay protocol, developed a questionnaire, conducted first analysis of global methylation exposure in registry participants
+
+## Centers for Disease Control and Prevention, Atlanta, GA | 2008 - 2011
+
+Research Specialist
+
+* Developed a method for calling up articles related to human genetics and infectious disease in HuGE Navigator and characterized the trend of publications in this field
+* Conducted an empirical investigation of meta-analyses of gene-environment interactions
+
+# Education
+
+Georgia Institute of Technology, Atlanta, GA
+* MS Bioinformatics | May 2019
+
+Emory University, Atlanta, GA 
+* MPH Epidemiology | August 2009
+
+Wesleyan College, Macon, GA
+* BA Biology & Psychology | May 2007
+
+# Other Skills
+* Languages: **English (native), Italian (fluent), Spanish (conversational), Farsi (conversational)**
+
+* Reviewer: CDC/ATSDR Statistical Science Awards (review theoretical papers) | 2 yrs
+
+* Teacher: elementary-college mathematics, statistics, chemistry, SAS, programming | 20 yrs
